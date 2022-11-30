@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node JS API ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashdeep703/nodejs.git"
+  },
+  "author": "akashdeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akashdeep703/nodejs/issues"
+  },
+  "homepage": "https://github.com/akashdeep703/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "save": "^2.9.0",
+    "sequelize": "^6.25.8"
+  }
+}
